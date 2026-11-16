@@ -288,7 +288,7 @@ export default function WorkGallery() {
       prefix="work"
       sectionId="work"
       showCta
-      imageSets={[2, 3, 2, 3].map((count, i) => Array.from({ length: count }, (_, m) => `/galeri/work-${i + 1}-${m + 1}.jpg`))}
+      imageSets={[4, 3, 3, 5].map((count, i) => Array.from({ length: count }, (_, m) => `/galeri/work-${i + 1}-${m + 1}.jpg`))}
     />
   )
 }
@@ -314,7 +314,7 @@ export function OrgActivities() {
     subtitle: t(`org.${n}.sub`),
     description: t(`org.${n}.desc`),
     tags: t(`org.${n}.tags`).split('|'),
-    images: n === 3 ? ['/galeri/org-3-1.jpg', '/galeri/org-3-2.jpg'] : [],
+    images: n === 3 ? ['/galeri/org-3-3.jpg', '/galeri/org-3-1.jpg', '/galeri/org-3-2.jpg'] : [`/galeri/org-${n}-1.jpg`],
   }))
 
   return (
@@ -340,8 +340,8 @@ export function OrgActivities() {
               <p className="text-xs md:text-sm font-semibold text-[var(--muted)] mb-5 font-sans">{item.subtitle}</p>
               {item.images.length > 0 && (
                 <div className="grid grid-cols-2 gap-2 mb-5">
-                  {item.images.map((src) => (
-                    <img key={src} src={src} alt={item.institution} className="w-full h-40 object-cover object-top rounded-xl border border-[var(--card-border)]" />
+                  {item.images.map((src, i) => (
+                    <img key={src} src={src} alt={item.institution} className={`w-full object-cover object-top rounded-xl border border-[var(--card-border)] ${i === 0 ? 'col-span-2 h-44 object-contain bg-white/5' : 'h-40'}`} />
                   ))}
                 </div>
               )}

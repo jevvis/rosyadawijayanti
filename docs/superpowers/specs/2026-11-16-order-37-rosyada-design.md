@@ -29,3 +29,10 @@ Situs portofolio dwibahasa (EN/ID) dari Template 1 (Next.js 14), memakai kerangk
 12. **Resolusi rendah.** Foto Trash Hero (480 x 319), poster Public Action (449 x 800), sampul laporan IPESOS (489 x 694), dan tangkapan layar Kementan/skripsi (667-1036 px). Minta berkas asli bila ada.
 13. **Berkas ganda.** `Documentations.zip` (30 MB) isinya sama dengan folder. `Portfolio.pdf` tidak dipasang sebagai berkas.
 14. **Kontak.** WhatsApp +62 856-4359-5324 dan email `rosyadawijayanti@gmail.com` mengikuti CV (konsisten dengan Portfolio.pdf untuk email).
+
+## Pembaruan 16 Nov 2026 (berkas tambahan klien)
+- Wajah orang lain di foto SODEC diburamkan (IPESOS 2, Sosmap IMG_0075, IMG_0038, IMG_9683). Rosyada diasumsikan perempuan berhijab krem di foto IPESOS (tidak diburamkan). Di foto Sosmap semua wajah diburamkan karena Rosyada tidak bisa dipastikan.
+- Sertifikat/piagam ditambahkan ke galeri: Kementan (work-3-3), DPD sertifikat + daftar nilai 89,75 (work-4-4/5), piagam Public Action (org-3-3). Daftar nilai DPD memuat NIM, tetap tampil karena sudah di dokumen resmi; bila ingin disembunyikan, blur.
+- Foto Sintesa (resolusi kecil, 445px) dan ICD ditambahkan ke kartu organisasi.
+- Tidak dipakai: konten Instagram DPD, notulensi BULD (memuat nama orang lain), duplikat folder "Magang - DPD RI".
+- Public Action dan Kementan tetap minim dokumentasi (sesuai catatan klien).
